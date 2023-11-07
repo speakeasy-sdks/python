@@ -4,7 +4,6 @@
 ```python
 import example
 
-
 s = example.Example()
 
 
