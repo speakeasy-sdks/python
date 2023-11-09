@@ -1,5 +1,5 @@
 # Pets
-(*.pets*)
+(*pets*)
 
 ### Available Operations
 
@@ -30,7 +30,11 @@ if res.status_code == 200:
 ### Response
 
 **[operations.CreatePetsResponse](../../models/operations/createpetsresponse.md)**
+### Errors
 
+| Error Object    | Status Code     | Content Type    |
+| --------------- | --------------- | --------------- |
+| errors.SDKError | 400-600         | */*             |
 
 ## list_pets
 
@@ -62,7 +66,11 @@ if res.pets is not None:
 ### Response
 
 **[operations.ListPetsResponse](../../models/operations/listpetsresponse.md)**
+### Errors
 
+| Error Object    | Status Code     | Content Type    |
+| --------------- | --------------- | --------------- |
+| errors.SDKError | 400-600         | */*             |
 
 ## show_pet_by_id
 
@@ -94,4 +102,8 @@ if res.pet is not None:
 ### Response
 
 **[operations.ShowPetByIDResponse](../../models/operations/showpetbyidresponse.md)**
+### Errors
 
+| Error Object    | Status Code     | Content Type    |
+| --------------- | --------------- | --------------- |
+| errors.SDKError | 400-600         | */*             |

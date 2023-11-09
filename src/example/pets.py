@@ -12,6 +12,7 @@ class Pets:
         self.sdk_configuration = sdk_config
         
     
+    
     def create_pets(self) -> operations.CreatePetsResponse:
         r"""Create a pet"""
         base_url = utils.template_url(*self.sdk_configuration.get_server_details())
@@ -41,6 +42,7 @@ class Pets:
 
         return res
 
+    
     
     def list_pets(self, limit: Optional[int] = None) -> operations.ListPetsResponse:
         r"""List all pets"""
@@ -82,6 +84,7 @@ class Pets:
 
         return res
 
+    
     
     def show_pet_by_id(self, pet_id: str) -> operations.ShowPetByIDResponse:
         r"""Info for a specific pet"""
