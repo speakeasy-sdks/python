@@ -1,0 +1,49 @@
+lockVersion: 2.0.0
+id: 2622b717-b8ee-4cf5-9ca8-f4e3a15eed5b
+management:
+  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.3.1
+  configChecksum: aacdb7cbf601580a358766500cb97043
+  repoURL: https://github.com/speakeasy-sdks/python.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/python.git
+features:
+  python:
+    core: 4.4.0
+    flattening: 2.81.1
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/example/sdkconfiguration.py
+  - src/example/pets.py
+  - src/example/sdk.py
+  - pylintrc
+  - setup.py
+  - src/example/__init__.py
+  - src/example/utils/__init__.py
+  - src/example/utils/retries.py
+  - src/example/utils/utils.py
+  - src/example/models/errors/sdkerror.py
+  - tests/helpers.py
+  - src/example/models/operations/createpets.py
+  - src/example/models/operations/listpets.py
+  - src/example/models/operations/showpetbyid.py
+  - src/example/models/shared/error.py
+  - src/example/models/shared/pet.py
+  - src/example/models/__init__.py
+  - src/example/models/errors/__init__.py
+  - src/example/models/operations/__init__.py
+  - src/example/models/shared/__init__.py
+  - docs/models/operations/createpetsresponse.md
+  - docs/models/operations/listpetsrequest.md
+  - docs/models/operations/listpetsresponse.md
+  - docs/models/operations/showpetbyidrequest.md
+  - docs/models/operations/showpetbyidresponse.md
+  - docs/models/shared/error.md
+  - docs/models/shared/pet.md
+  - docs/sdks/example/README.md
+  - docs/sdks/pets/README.md
+  - USAGE.md
+  - .gitattributes
