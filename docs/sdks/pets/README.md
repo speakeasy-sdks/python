@@ -15,16 +15,27 @@ Create a pet
 
 ```python
 import example
+from example.models import shared
 
 s = example.Example()
 
+req = shared.Pet(
+    id=596804,
+    name='string',
+)
 
-res = s.pets.create_pets()
+res = s.pets.create_pets(req)
 
 if res.status_code == 200:
     # handle response
     pass
 ```
+
+### Parameters
+
+| Parameter                                  | Type                                       | Required                                   | Description                                |
+| ------------------------------------------ | ------------------------------------------ | ------------------------------------------ | ------------------------------------------ |
+| `request`                                  | [shared.Pet](../../models/shared/pet.md)   | :heavy_check_mark:                         | The request object to use for the request. |
 
 
 ### Response
