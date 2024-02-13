@@ -55,7 +55,6 @@ List all pets
 
 ```python
 import example
-from example.models import operations
 
 s = example.Example()
 
@@ -91,7 +90,6 @@ Info for a specific pet
 
 ```python
 import example
-from example.models import operations
 
 s = example.Example()
 

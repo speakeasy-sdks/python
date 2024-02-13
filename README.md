@@ -69,7 +69,7 @@ Handling errors in this SDK should largely match your expectations.  All operati
 
 ```python
 import example
-from example.models import shared
+from example.models import errors, shared
 
 s = example.Example()
 
@@ -82,7 +82,7 @@ res = None
 try:
     res = s.pets.create_pets(req)
 except errors.SDKError as e:
-    print(e)  # handle exception
+    # handle exception
     raise(e)
 
 if res.status_code == 200:
