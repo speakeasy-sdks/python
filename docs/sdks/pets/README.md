@@ -21,7 +21,7 @@ s = example.Example()
 
 req = shared.Pet(
     id=596804,
-    name='string',
+    name='<value>',
 )
 
 res = s.pets.create_pets(req)
@@ -94,7 +94,7 @@ import example
 s = example.Example()
 
 
-res = s.pets.show_pet_by_id(pet_id='string')
+res = s.pets.show_pet_by_id(pet_id='<value>')
 
 if res.pet is not None:
     # handle response
