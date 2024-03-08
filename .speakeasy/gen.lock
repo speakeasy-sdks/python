@@ -3,22 +3,24 @@ id: 2622b717-b8ee-4cf5-9ca8-f4e3a15eed5b
 management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.275.4
-  releaseVersion: 0.6.0
-  configChecksum: 9ffff6eb6585408ba83b78825030f967
+  speakeasyVersion: 1.204.1
+  generationVersion: 2.279.1
+  releaseVersion: 0.7.0
+  configChecksum: bc80bd793b9557a0dd23121c8644569d
   repoURL: https://github.com/speakeasy-sdks/python.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/python.git
 features:
   python:
-    core: 4.5.0
+    core: 4.5.1
     flattening: 2.81.1
     globalServerURLs: 2.82.1
+    responseFormat: 0.1.0
 generatedFiles:
   - src/example/sdkconfiguration.py
   - src/example/pets.py
   - src/example/sdk.py
+  - py.typed
   - pylintrc
   - setup.py
   - src/example/__init__.py
